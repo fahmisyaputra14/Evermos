@@ -42,13 +42,13 @@ public class getURL {
         driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div[3]/div[2]/a[2]/i")).click();
         driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div[2]/div/div[1]/a/i/span")).click();
         driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div[2]/div/form/input")).sendKeys(Keys.CONTROL + "v");
-        String Tautan = driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div[2]/div/form/input")).getText();
+      //  String Tautan = driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/div[2]/div/form/input")).getText();
 
-        Thread.sleep(8000);
+        //Thread.sleep(8000);
 //        driver.findElement(By.cssSelector("Body")).sendKeys(Keys.CONTROL + "t");
        // ((JavascriptExecutor) driver).executeScript("window.open()");// launching a new tab
         Thread.sleep(24000);
-        driver.get("Tautan");
+      //  driver.get("Tautan");
 
     }
 
